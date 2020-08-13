@@ -24,6 +24,9 @@ int main() {
     case 5 :
       relWeight = weight * 1.05;
       break;
+    case 6 :
+      relWeight = weight * 1.23;
+      break;
     default :
       std::cout << "No such planet\n";
   }
